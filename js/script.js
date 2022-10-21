@@ -74,6 +74,9 @@ function showTeamInfo(id) {
         </div>
         `;
             document.getElementById("modalnih").innerHTML = detail_team;
+        })
+        .catch((err) => {
+            console.error(err);
         });
 }
 
